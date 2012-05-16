@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, ListViewActivity!</string>
+    <string name="app_name">ListViewApplication</string>
+    <string name="name">Enter Name</string>
+    <string name="age">Enter Age</string>
+    <string name="show">Show details</string>
+    <string name="profile">Profile details</string>
+    <string name="myName">Name : </string>
+    <string name="myAge">Age : </string>
+
+
+</resources>

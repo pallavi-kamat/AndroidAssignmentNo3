@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imagFavLogo"
+        android:layout_width="30dip"
+        android:layout_height="50dip"
+        android:layout_alignParentRight="true"
+        android:layout_alignRight="@+id/textViewHeading"
+        android:src="@drawable/star2" >
+    </ImageView>
+
+    <TextView
+        android:id="@+id/textName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:padding="10dp"
+        android:text="@string/myName"
+        android:textColor="#4169e1" />
+
+    <TextView
+        android:id="@+id/textAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/textName"
+        android:padding="10dp"
+        android:text="@string/myAge"
+        android:textColor="#00bfff" />
+
+</RelativeLayout>
